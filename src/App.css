@@ -1,7 +1,8 @@
 .div-logo {
   display: flex;  
   margin-top: 4rem;
-  margin-left: 10rem;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -15,7 +16,7 @@ header {
 .logo1{
   max-width: 100%; 
   width: 4rem;
-  margin-left: 4rem;
+  
 }
 
 .logo2 {
@@ -58,3 +59,73 @@ p{
   color: rgba(34, 36, 34, 0.87);
 }
 
+
+@media (max-width: 768px) {
+  .div-logo {
+    flex-direction: column;
+    
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  .titulo{
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+
+  .logo1 {
+    width: 6rem;
+    margin-right: 12rem;
+  }
+
+  .logo2{
+    width: 17rem;
+    margin-left: 12rem;
+    margin-top: -6rem;
+  }
+
+  .principal {
+    margin-top: -50px;
+  }
+
+  .img-proced-1 {
+    margin-left: 0;
+    margin-top: 1rem;
+    max-width: 100%;
+  }
+
+  h3, p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+  }
+}
+
+@media (max-width: 480px) {
+
+  .titulo{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+  }
+  
+  .logo1 {
+    width: 4rem;
+    margin-right: 8rem;
+  }
+
+  .logo2{
+    width: 12rem;
+    margin-left: 7rem;
+    margin-top: -4.5rem;
+  }
+
+  .principal {
+    margin-top: -10rem;
+  }
+
+  h3 {
+    margin-top: 3rem;
+  }
+}
