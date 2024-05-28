@@ -23,8 +23,8 @@ function GVN() {
             <img className='img-proced-1' src={proced4} />
 
 
-            <h3>FLEGAR OS ITENS REQUERIDOS</h3>
-            <p>&bull; Flegar os ícones que deseja enviar, (conforme imagem a seguir):</p>
+            <h3>SELECIONAR OS ITENS REQUERIDOS</h3>
+            <p>&bull; Selecione os ícones que deseja enviar, (conforme imagem a seguir):</p>
             <img className='img-proced-1' src={proced5} />
 
 

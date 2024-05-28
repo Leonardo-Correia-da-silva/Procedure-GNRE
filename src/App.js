@@ -9,7 +9,6 @@ function App() {
   return (
     <div>
       <div className='div-logo'>
-    
         <header>
           <img className='logo1' src={logo1} />
           <img className='logo2' src={logo2} />
