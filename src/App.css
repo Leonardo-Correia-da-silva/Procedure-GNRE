@@ -6,6 +6,22 @@
 
 }
 
+.button {
+  justify-content: center;
+  position: fixed;
+  right: 20px; 
+  bottom: 20px; 
+  color: rgb(2, 82, 128);
+  background-color: rgba(104, 171, 202, 0.164);
+  border-color: rgba(112, 186, 236, 0.555);
+  border-radius: 5px;
+  height: 2rem;
+  width: auto;
+  padding: 0 10px;
+  z-index: 1000;
+  
+}
+
 header {
   display: flex;
   flex-direction: row; 
@@ -122,10 +138,11 @@ p{
   }
 
   .principal {
-    margin-top: -10rem;
+    margin-top: -12rem;
   }
 
   h3 {
     margin-top: 3rem;
+    font-size: 0.9rem;
   }
 }

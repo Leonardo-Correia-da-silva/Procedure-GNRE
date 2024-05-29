@@ -6,6 +6,12 @@ import Login from '../src/Imagens GNRE/Login.png';
 
 
 function App() {
+  const scrollToTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+};
   return (
     <div>
       <div className='div-logo'>
@@ -23,6 +29,7 @@ function App() {
             clique em "ok" para ser direcionado ao ambiente do sistema! (conforme imagem a seguir):</p>
           <img className='img-proced-1' src={Login} />
         </main>
+        <button className='button' onClick={scrollToTop}>Voltar ao Início</button>
       </div>
     </div>
   );

@@ -6,6 +6,7 @@ import proced5 from '../Imagens GNRE/proced.5.png';
 import proced6 from '../Imagens GNRE/proced.6.png';
 
 function GVN() {
+    
     return (
         <div className="GVN">
             <h3>GESTÃO DE VENDAS / NOTA FISCAL ELETRÔNICA</h3>
